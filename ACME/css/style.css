@@ -38,6 +38,15 @@ ul{
     color: #fff; 
 }
 
+/* 12 About */
+.dark{
+    padding:15px;
+    background: #35424a;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 
 /* header **/
 /* 3 */
@@ -165,6 +174,20 @@ header a:hover{
 
 #boxes .box img{
     width: 90px;
+}
+
+/* sidebar aside -About */
+/* No space */
+aside#sidebar{
+        float: right;
+        width: 30%;
+        margin-top: 10px;
+}
+
+/* main-col About */
+article#main-col{
+    float: left;
+    width: 65%;
 }
 
 footer{
