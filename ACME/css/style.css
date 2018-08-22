@@ -1,0 +1,223 @@
+/* 1 */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    /* height between each line */
+    line-height: 1.5;
+    /* short cut of above */
+    font:15px/1.5 Arial, Helvetica, sans-serif;
+    /* H1 has default padding above and below */
+    padding: 0px;
+    margin: o;
+    background-color: #f4f4f4;
+}
+/* Global **/
+/* 2 */
+.container{
+    width: 80%;
+    /* To make the container move to center */
+    margin: auto;
+    /* 
+    If something goes outside the div container
+    we want the content to be hidden
+    */
+    overflow: hidden;
+}
+ul{
+    /* By default ul has margin and padding */
+    margin: 0;
+    padding: 0;
+}
+/* 10 */
+.button_1{
+    height: 38px;
+    background: #e8491d;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #fff; 
+}
+
+
+/* header **/
+/* 3 */
+header{
+    background: #35424a;
+    color:#fff;
+    padding-top: 30px;
+    /*
+    This way responsive if the text grows and 
+    the menu grows we want the height to adjust
+    */
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid; 
+}
+
+header a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+
+header li{
+    /* why ? */
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+/* 4 */
+/* We want branding to float to the left and nav to the right */
+header #branding{
+    float: left;
+}
+header #branding h1{
+   margin: 0;
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+/* coloring ACME and nav buttons */
+/* 5 */
+header .highlight, header .current a{
+    /* two classes have this style and only a one of them  */
+   /* re-edit Html */
+    /* 6 */
+   /* 
+    
+        GO TO html 
+        AND WRAP THE "ACME" IN SPAN
+
+        SPAN IS A INLINE LEVEL ELEMENT
+        IF WE WRAP IN DIV THEN ACME WILL
+        GO ON IT'S OWN LINE
+    */
+    color: #e8491d;
+    font-weight: bold;
+}
+/* Add hover state */
+header a:hover{
+    color: #ccc;
+    font-weight: bold;
+}
+
+/* Shocase **/
+/* 7 */
+#showcase{
+    min-height: 400px;
+    /* 
+        we give 0  for horizontal and -400px
+        -ve vertical to move image upwards
+    */
+    background: url('/img/showcase.jpg') no-repeat 0 -400px;
+    text-align: center;
+    color: #fff;
+}
+ #showcase h1{
+     margin-top: 100px;
+     font-size: 55px;
+     margin-bottom: 10px;
+ }
+
+ #showcase p{
+     font-size: 20px;
+ }
+ /* #Note: Always add style to the page from top to bottom */
+/* 8 */
+ #newsletter{
+     padding: 15px;
+     color: white;
+     background: #35424a
+}
+/* Newsletter */
+/* float h1 of newsletter to the left */
+#newsletter h1{
+    float: left;
+}
+#newsletter form{
+    float: right;
+    margin-top: 15px;
+} 
+#newsletter input[type=email]{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}  
+/* 9 -We want button style to be global so we can use it in other places */
+
+/* 11 */
+/* Boxes */
+#boxes{
+    margin-top: 20px;
+}
+
+#boxes .box{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+
+#boxes .box img{
+    width: 90px;
+}
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: #fff;
+    background-color: #e8491d;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
