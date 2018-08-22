@@ -184,10 +184,36 @@ aside#sidebar{
         margin-top: 10px;
 }
 
+/* sidebar aside -Services */
+/* class of quote */
+/* styles of textarea and input */
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+    width: 90%;
+    padding: 5px;
+    /* 
+    Full version of the site is complete
+    Now we have to make it compatabile
+    for mobile platforms
+
+    Now the way that we do this is by media 
+    queries -bottom
+
+    */
+}
+
 /* main-col About */
 article#main-col{
     float: left;
     width: 65%;
+}
+
+/* services */
+ul#services li{
+    list-style: none;
+    padding: 20px;
+    border: #ccc solid 1px;
+    margin-bottom: 5px;
+    background:#e6e6e6; 
 }
 
 footer{
@@ -199,8 +225,24 @@ footer{
 }
 
 
+/* Media queries */
+/*  Standard size is 768px */
+/* 
+even media queries should be worked one
+page at a time and from top to bottom 
 
+*/
+@media(max-width:768px){
+    /* 
+    55:40 -travers
 
+    Anything we put in here will
+    Only be effective when the 
+    width of the browser becomes
+    768px
+
+    */
+}
 
 
 
