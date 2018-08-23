@@ -233,7 +233,8 @@ page at a time and from top to bottom
 
 */
 @media(max-width:768px){
-    /* 
+    /*
+
     55:40 -travers
 
     Anything we put in here will
@@ -242,6 +243,68 @@ page at a time and from top to bottom
     768px
 
     */
+    /* The huge part of what we do here is to remove floats */
+    /* 
+    When in small size we want nav to be below logo
+       
+    */
+    header #branding,
+    header nav,
+    header nav li,
+    #newsletter h1,
+    #newsletter form,
+    #boxes .box,
+    article#main-col,
+    aside#sidebar{
+        float: none;
+        text-align: center;
+        width: 100%;
+        /* Nav is center but we want the elements in the nav to also be centeres */
+    }
+
+    /* adding sapce under the header */
+    header{
+        padding-bottom: 20px;
+    }
+    /*We have too much space to we reset margin-top  */
+    #showcase h1{
+        margin-top: 40px;
+    }
+    /*
+    next we remove float from news letter
+    So we add it to above
+    */
+    /* 
+    At this px we want the newsletter button
+    to always be in new block and make it 100% wide 
+    */
+    #newsletter button, .quote button{
+        display: block;
+        width: 100%;
+    }
+    /* by default it is 90% */
+    #newsletter form input[type="email"], .quote input, .quote textarea{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    /* boxes add that to global main */
+
+    /* responsive home page is done */
+
+    /* About */
+    /* 
+    Add article#main-col and the side bar to global
+    to remove float...
+    */
+
+    /* Making  button in services a block and adjusting the width*/
+    /* 
+    Also the inputs are little off 
+    add to newsletter
+    */
+
+    /* Now the website is completly responsive */
+
 }
 
 
